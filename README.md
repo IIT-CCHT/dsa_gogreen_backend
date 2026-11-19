@@ -2,7 +2,6 @@
 
 Backend API for the **GoGreen Decision Support Application (DSA)**, developed within the GoGreen research project to support comparative assessment of materials and treatments for cultural heritage conservation.
 
-- **Application:** https://gogreen-dsa.eu/
 - **Frontend repository:** https://github.com/IIT-CCHT/dsa_gogreen_frontend
 - **Maintainer:** IIT — Center for Cultural Heritage Technology (CCHT)
 - **License:** MIT (see `LICENSE`)
@@ -10,6 +9,8 @@ Backend API for the **GoGreen Decision Support Application (DSA)**, developed wi
 ## Overview
 
 This repository contains the GoGreen DSA Node.js API, including authentication, access to MongoDB-backed reference and application data, workbench persistence, and comparison/assessment functionality. The user interface is maintained in a separate Nuxt repository.
+
+Please note: The MongoDB database is not included in this repository or distributed with the application, as it contains third-party data subject to separate licensing agreements and usage restrictions.
 
 ## Technology
 
