@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS          PORTS     NAMES
+802d502d7f94   node:dsa_backend_img   "docker-entrypoint.s…"   38 seconds ago   Up 37 seconds             dsa-backend-cnt
+CONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS          PORTS     NAMES
+802d502d7f94   node:dsa_backend_img   "docker-entrypoint.s…"   43 seconds ago   Up 42 seconds             dsa-backend-cnt

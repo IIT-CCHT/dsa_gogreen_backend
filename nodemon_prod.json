@@ -1,0 +1,16 @@
+{
+  "env": {
+    "DB_URL":"mongodb://db:27017/",
+    "DB_NAME":"dsa",
+    "AUTHENTICATION_MODE": "dsa", 
+    "AZURE_APP_ID":"d5e6ae80-25e9-4b78-b6ec-f6295b7c2161",
+    "MY_VAR":"Prod",
+    "comments": "AUTHENTICATION_MODE could be 'intranet' (using intranet third part authentication) or 'dsa' (using normal oauth2 authentication)",
+    "PUB_KEY": "",
+
+    "EMAIL_SMTP": "sandbox.smtp.mailtrap.io",
+    "EMAIL_PORT": 2525,
+    "EMAIL_USERNAME":"e655457049fdee",
+    "EMAIL_PASSWORD": "3a17f30b2146c8"
+  }
+}

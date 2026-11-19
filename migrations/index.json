@@ -1,0 +1,3839 @@
+[
+  {
+    "version": 0,
+    "data":
+    {
+      "users":
+        [
+          {
+            "createdAt": null,
+            "updatedAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "Giorgio Brugnone",
+            "email": "giorgio.brugnone@iit.it",
+            "role_id": "64eda11ffc0af4513c5ede3e"
+          },
+          {
+            "createdAt": null,
+            "updatedAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "Mario Rossi",
+            "email": "mario.rossi@iit.it",
+            "age": "20",
+            "role_id": "648b162044af170e04de101c"
+          }
+        ],
+      "roles":
+        [
+          {
+            "_id": "648b1320e7cd25e2e8ca383b",
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "Administrator"
+          },
+          {
+            "_id": "648b162044af170e04de101c",
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "Editor"
+          },
+          {
+            "_id": "648b162444af170e04de1020",
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "User"
+          },
+          {
+            "_id": "64eda11ffc0af4513c5ede3e",
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "Bigone"
+          }
+        ],
+      "actions":
+        [
+          {
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "gap filling"
+          },
+          {
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "stabilization"
+          },
+          {
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "protection"
+          }
+        ],
+      "materials":
+        [
+          {
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "Glass"
+          },
+          {
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "Plastic"
+          },
+          {
+            "createdAt": null,
+            "updateddAt": null,
+            "deletedAt": null,
+            "createdBy": null,
+            "updatedBy": null,
+            "deletedBy": null,
+            "name": "Fresco"
+          }
+        ]
+    }
+  },
+  {
+    "version": 1,
+    "action": "replace",
+    "data":
+    {
+      "green_parameters": 
+      [
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937e9"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G1",
+          "name": "Toxicity (and hazard metrics) environment direct and indirect",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf11d"
+          },
+          "slug": "toxicit_environment",
+          "color": "bg-cyan-500",
+          "form": [
+            "material"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937ea"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G2",
+          "name": "Toxicity (and hazard metrics) user direct and indirect",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf11d"
+          },
+          "slug": "toxicity_user",
+          "color": "bg-green-400",
+          "form": [
+            "material"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937eb"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G3",
+          "name": "Energy - Climate indoor control and outdoor location ",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf11e"
+          },
+          "slug": "climate_indoor_outdoor",
+          "color": "bg-cyan-400",
+          "form": [
+            "treatment"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937ec"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G4",
+          "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf11e"
+          },
+          "slug": "energy_consuption",
+          "color": "bg-red-500",
+          "form": [
+            "treatment"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937ed"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G5",
+          "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf11e"
+          },
+          "slug": "energy_carbon_footprint",
+          "color": "bg-cyan-400",
+          "form": [
+            "material"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937ee"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G6",
+          "name": "Availability materials - water use & resource depletion ",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf120"
+          },
+          "slug": "availability_materials",
+          "color": "bg-cyan-400",
+          "form": [
+            "material",
+            "treatment"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937ef"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G7",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf120"
+          },
+          "slug": "biodiversity_impacts",
+          "color": "bg-yellow-300",
+          "name": "Availability materials - biodiversity impacts",
+          "form": [
+            "material",
+            "treatment"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937f0"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G8",
+          "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf120"
+          },
+          "slug": "waste_disposal_reuse",
+          "color": "bg-yellow-300",
+          "form": [
+            "material",
+            "treatment"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937f1"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G9",
+          "name": "Combination conservation materials and application method",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf121"
+          },
+          "slug": "application_method",
+          "color": "bg-fuchsia-500",
+          "form": [
+            "treatment"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937f2"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G10",
+          "name": "Number of application/estimated quantity",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf121"
+          },
+          "slug": "number_of_application",
+          "color": "bg-fuchsia-500",
+          "form": [
+            "material",
+            "treatment"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937f3"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "G11",
+          "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf121"
+          },
+          "slug": "longevity_of_treatment",
+          "color": "bg-fuchsia-500",
+          "form": [
+            "treatment"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937f4"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "S12",
+          "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf121"
+          },
+          "slug": "accessibility_availability_in_production",
+          "color": "bg-yellow-300",
+          "form": [
+            "material"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937f5"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "S13",
+          "name": "Quality of result",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf121"
+          },
+          "slug": "quality_of_result",
+          "color": "bg-yellow-300",
+          "form": [
+            "treatment"
+          ]
+        },
+        {
+          "_id": {
+            "$oid": "653bcb491b954b997c3937f6"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "code": "S14",
+          "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+          "group_id": {
+            "$oid": "655f7c274236a52525bdf121"
+          },
+          "slug": "ease_of_use",
+          "color": "bg-fuchsia-500",
+          "form": [
+            "material",
+            "treatment"
+          ]
+        }
+      ],
+      "green_parameter_groups":
+      [
+        {
+          "_id": {
+            "$oid": "655f7c274236a52525bdf11d"
+          },
+          "name": "hazard impacts on human and environment",
+          "icon": "parameters-bio-hazard",
+          "slug": "hazard_impacts_on_human_and_environment",
+          "color": "bg-cyan-400",
+          "sort": "2"
+        },
+        {
+          "_id": {
+            "$oid": "655f7c274236a52525bdf11e"
+          },
+          "name": "impacts on climate change",
+          "icon": "parameters-climate-change",
+          "slug": "impacts_on_climate_change",
+          "color": "bg-lime-500",
+          "sort": "3"
+        },
+        {
+          "_id": {
+            "$oid": "655f7c274236a52525bdf120"
+          },
+          "name": "impacts on resources",
+          "icon": "parameters-resources",
+          "slug": "impacts_on_resources",
+          "color": "bg-fuchsia-500",
+          "sort": "4"
+        },
+        {
+          "_id": {
+            "$oid": "655f7c274236a52525bdf121"
+          },
+          "name": "art work specific/professional parameters",
+          "icon": "parameters-professional-parameters",
+          "slug": "art_work_specific",
+          "color": "bg-yellow-300",
+          "sort": "1"
+        }
+      ],
+      "materials":
+      [
+        {
+          "_id": {
+            "$oid": "6489e0a6c28a55c1a10bbc48"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Paraloid B72",
+          "__v": 0,
+          "type": "substances",
+          "unit": "lt"
+        },
+        {
+          "_id": {
+            "$oid": "6489e0acc28a55c1a10bbc4c"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:48.106Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Polyvinyl acetate (PVAc)",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "6489e0b2c28a55c1a10bbc50"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:54.978Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Cyanoacrylates",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "652528db6bd114dfca591c71"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:48.106Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Cotton",
+          "type": "stuff"
+        },
+        {
+          "_id": {
+            "$oid": "6526ad088a3b5ddb2c90f286"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:48.106Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Swab",
+          "type": "stuff"
+        },
+        {
+          "_id": {
+            "$oid": "6526ae118a3b5ddb2c90f287"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Benzene",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "6526aea18a3b5ddb2c90f288"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Chloroform",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "6526aeb28a3b5ddb2c90f289"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Acetonitrile",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d11979"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Formamide",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d1197a"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Formic acid",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d1197b"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Fumaric acid",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d1197c"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Fuels, diesel",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d1197d"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Gallium",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d1197e"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Gasoline",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d1197f"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Glutamic acid",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d11980"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Hafnium dioxide",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d11981"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Heptan-2-yl 2-chloroacetate",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d11982"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Hexyl acetate",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d11983"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Hydrogen bromide",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d11984"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Isodecyl 3,5,5-trimethylhexanoate",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d11985"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "L-p-mentha-1(6),8-dien-2-one",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d11986"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Linalyl acetate",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b73ee362bb92741d11987"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Lubricating oils",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d11988"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Lutetium trinitrate",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d11989"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "M-119",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d1198a"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Magnesium perchlorate",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d1198b"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Mandelic acid",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d1198c"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Manganese sulphate",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d1198d"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Mecoprop-P (ISO); (R)-2-(4-chloro-2-methylphenoxy)propionic acid",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d1198e"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Myristoyl chloride",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d1198f"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "N,N'-bis(2,3-dihydroxypropyl)-5-nitrobenzene-1,3 dicarboxamide",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d11990"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "O,O-dibutyl hydrogen thiophosphate, compound with 1-octylamine (1:1)",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d11991"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "O-acetylsalicylic acid",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d11992"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Octadecan-1-ol, ethoxylated",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b753e362bb92741d11993"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Sodium acetate",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "653b775b362bb92741d11994"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Water",
+          "__v": 0,
+          "type": "substances"
+        },
+        {
+          "_id": {
+            "$oid": "65bb62b72e87608b2cec8db8"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Brush",
+          "__v": 0,
+          "type": "stuff"
+        },
+        {
+          "_id": {
+            "$oid": "65bb63772e87608b2cec8db9"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "UV Lamp",
+          "__v": 0,
+          "type": "stuff"
+        },
+        {
+          "_id": {
+            "$oid": "65bb63a22e87608b2cec8dba"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Sponge",
+          "__v": 0,
+          "type": "stuff"
+        },
+        {
+          "_id": {
+            "$oid": "65bb640a2e87608b2cec8dbb"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Spatula",
+          "__v": 0,
+          "type": "stuff"
+        },
+        {
+          "_id": {
+            "$oid": "65bb64422e87608b2cec8dbc"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Chisel",
+          "__v": 0,
+          "type": "stuff"
+        },
+        {
+          "_id": {
+            "$oid": "65bb64732e87608b2cec8dbd"
+          },
+          "createdAt": {
+            "$date": "2023-06-14T15:45:42.676Z"
+          },
+          "updatedAt": null,
+          "deletedAt": null,
+          "createdBy": null,
+          "updatedBy": null,
+          "deletedBy": null,
+          "name": "Laser",
+          "__v": 0,
+          "type": "stuff"
+        }
+      ],
+      "workbenches":
+      [
+        {
+          "_id": {
+            "$oid": "65fc580f4425bed0e9121884"
+          },
+          "last_access": "2024-03-21T15:53:51.408Z",
+          "folders": [
+            {
+              "name": "COMPARE MATERIALS",
+              "created_at": "5-6-2024",
+              "view": "single_material",
+              "materials": [],
+              "parameters": [],
+              "selected": false,
+              "page": "0"
+            },
+            {
+              "created_at": "4-16-2024",
+              "view": "single_material",
+              "materials": [
+                {
+                  "_id": "6489e0b2c28a55c1a10bbc50",
+                  "createdAt": "2023-06-14T15:45:54.978Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "name": "Cyanoacrylates",
+                  "__v": 0,
+                  "type": "substances",
+                  "parameters": [
+                    {
+                      "_id": "653bcb491b954b997c3937e9",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G1",
+                      "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                      "group_id": "655f7c274236a52525bdf11d",
+                      "slug": "toxicit_environment",
+                      "color": "bg-cyan-500",
+                      "value": 10
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ea",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G2",
+                      "name": "Toxicity (and hazard metrics) user direct and indirect",
+                      "group_id": "655f7c274236a52525bdf11d",
+                      "slug": "toxicity_user",
+                      "color": "bg-green-400",
+                      "value": 1
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937eb",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G3",
+                      "name": "Energy - Climate indoor control and outdoor location ",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "climate_indoor_outdoor",
+                      "color": "bg-cyan-400",
+                      "value": 3
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ec",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G4",
+                      "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "energy_consuption",
+                      "color": "bg-red-500",
+                      "value": 9
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ed",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G5",
+                      "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "energy_carbon_footprint",
+                      "color": "bg-cyan-400",
+                      "value": 6
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ee",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G6",
+                      "name": "Availability materials - water use & resource depletion ",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "availability_materials",
+                      "color": "bg-cyan-400",
+                      "value": 9
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ef",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G7",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "biodiversity_impacts",
+                      "color": "bg-yellow-300",
+                      "name": "Availability materials - biodiversity impacts",
+                      "value": 1
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f0",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G8",
+                      "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "waste_disposal_reuse",
+                      "color": "bg-yellow-300",
+                      "value": 3
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f1",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G9",
+                      "name": "Combination conservation materials and application method",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "application_method",
+                      "color": "bg-fuchsia-500",
+                      "value": 7
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f2",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G10",
+                      "name": "Number of application/estimated quantity",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "number_of_application",
+                      "color": "bg-fuchsia-500",
+                      "value": 8
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f3",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G11",
+                      "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "longevity_of_treatment",
+                      "color": "bg-fuchsia-500",
+                      "value": 8
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f4",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S12",
+                      "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "accessibility_availability_in_production",
+                      "color": "bg-yellow-300",
+                      "value": 6
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f5",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S13",
+                      "name": "Quality of result",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "quality_of_result",
+                      "color": "bg-yellow-300",
+                      "value": 2
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f6",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S14",
+                      "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "ease_of_use",
+                      "color": "bg-fuchsia-500",
+                      "value": 6
+                    }
+                  ],
+                  "visible": true
+                },
+                {
+                  "_id": "6526ae118a3b5ddb2c90f287",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "name": "Benzene",
+                  "__v": 0,
+                  "type": "substances",
+                  "parameters": [
+                    {
+                      "_id": "653bcb491b954b997c3937e9",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G1",
+                      "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                      "group_id": "655f7c274236a52525bdf11d",
+                      "slug": "toxicit_environment",
+                      "color": "bg-cyan-500",
+                      "value": 9
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ea",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G2",
+                      "name": "Toxicity (and hazard metrics) user direct and indirect",
+                      "group_id": "655f7c274236a52525bdf11d",
+                      "slug": "toxicity_user",
+                      "color": "bg-green-400",
+                      "value": 2
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937eb",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G3",
+                      "name": "Energy - Climate indoor control and outdoor location ",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "climate_indoor_outdoor",
+                      "color": "bg-cyan-400",
+                      "value": 9
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ec",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G4",
+                      "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "energy_consuption",
+                      "color": "bg-red-500",
+                      "value": 2
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ed",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G5",
+                      "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "energy_carbon_footprint",
+                      "color": "bg-cyan-400",
+                      "value": 9
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ee",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G6",
+                      "name": "Availability materials - water use & resource depletion ",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "availability_materials",
+                      "color": "bg-cyan-400",
+                      "value": 10
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ef",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G7",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "biodiversity_impacts",
+                      "color": "bg-yellow-300",
+                      "name": "Availability materials - biodiversity impacts",
+                      "value": 2
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f0",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G8",
+                      "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "waste_disposal_reuse",
+                      "color": "bg-yellow-300",
+                      "value": 8
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f1",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G9",
+                      "name": "Combination conservation materials and application method",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "application_method",
+                      "color": "bg-fuchsia-500",
+                      "value": 5
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f2",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G10",
+                      "name": "Number of application/estimated quantity",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "number_of_application",
+                      "color": "bg-fuchsia-500",
+                      "value": 6
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f3",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G11",
+                      "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "longevity_of_treatment",
+                      "color": "bg-fuchsia-500",
+                      "value": 4
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f4",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S12",
+                      "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "accessibility_availability_in_production",
+                      "color": "bg-yellow-300",
+                      "value": 8
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f5",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S13",
+                      "name": "Quality of result",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "quality_of_result",
+                      "color": "bg-yellow-300",
+                      "value": 10
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f6",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S14",
+                      "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "ease_of_use",
+                      "color": "bg-fuchsia-500",
+                      "value": 7
+                    }
+                  ],
+                  "visible": true
+                }
+              ],
+              "parameters": [
+                {
+                  "_id": "653bcb491b954b997c3937e9",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G1",
+                  "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                  "group_id": "655f7c274236a52525bdf11d",
+                  "slug": "toxicit_environment",
+                  "color": "bg-cyan-500",
+                  "form": [
+                    "material"
+                  ],
+                  "value": 10,
+                  "worse_material_id": "6489e0b2c28a55c1a10bbc50",
+                  "worse_material_name": "Cyanoacrylates"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937ea",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G2",
+                  "name": "Toxicity (and hazard metrics) user direct and indirect",
+                  "group_id": "655f7c274236a52525bdf11d",
+                  "slug": "toxicity_user",
+                  "color": "bg-green-400",
+                  "form": [
+                    "material"
+                  ],
+                  "value": 2,
+                  "worse_material_id": "6526ae118a3b5ddb2c90f287",
+                  "worse_material_name": "Benzene"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937eb",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G3",
+                  "name": "Energy - Climate indoor control and outdoor location ",
+                  "group_id": "655f7c274236a52525bdf11e",
+                  "slug": "climate_indoor_outdoor",
+                  "color": "bg-cyan-400",
+                  "form": [
+                    "treatment"
+                  ],
+                  "value": 9,
+                  "worse_material_id": "6526ae118a3b5ddb2c90f287",
+                  "worse_material_name": "Benzene"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937ec",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G4",
+                  "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                  "group_id": "655f7c274236a52525bdf11e",
+                  "slug": "energy_consuption",
+                  "color": "bg-red-500",
+                  "form": [
+                    "treatment"
+                  ],
+                  "value": 9,
+                  "worse_material_id": "6489e0b2c28a55c1a10bbc50",
+                  "worse_material_name": "Cyanoacrylates"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937ed",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G5",
+                  "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                  "group_id": "655f7c274236a52525bdf11e",
+                  "slug": "energy_carbon_footprint",
+                  "color": "bg-cyan-400",
+                  "form": [
+                    "material"
+                  ],
+                  "value": 9,
+                  "worse_material_id": "6526ae118a3b5ddb2c90f287",
+                  "worse_material_name": "Benzene"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937ee",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G6",
+                  "name": "Availability materials - water use & resource depletion ",
+                  "group_id": "655f7c274236a52525bdf120",
+                  "slug": "availability_materials",
+                  "color": "bg-cyan-400",
+                  "form": [
+                    "material",
+                    "treatment"
+                  ],
+                  "value": 10,
+                  "worse_material_id": "6526ae118a3b5ddb2c90f287",
+                  "worse_material_name": "Benzene"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937ef",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G7",
+                  "group_id": "655f7c274236a52525bdf120",
+                  "slug": "biodiversity_impacts",
+                  "color": "bg-yellow-300",
+                  "name": "Availability materials - biodiversity impacts",
+                  "form": [
+                    "material",
+                    "treatment"
+                  ],
+                  "value": 2,
+                  "worse_material_id": "6526ae118a3b5ddb2c90f287",
+                  "worse_material_name": "Benzene"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937f0",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G8",
+                  "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                  "group_id": "655f7c274236a52525bdf120",
+                  "slug": "waste_disposal_reuse",
+                  "color": "bg-yellow-300",
+                  "form": [
+                    "material",
+                    "treatment"
+                  ],
+                  "value": 8,
+                  "worse_material_id": "6526ae118a3b5ddb2c90f287",
+                  "worse_material_name": "Benzene"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937f1",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G9",
+                  "name": "Combination conservation materials and application method",
+                  "group_id": "655f7c274236a52525bdf121",
+                  "slug": "application_method",
+                  "color": "bg-fuchsia-500",
+                  "form": [
+                    "treatment"
+                  ],
+                  "value": 7,
+                  "worse_material_id": "6489e0b2c28a55c1a10bbc50",
+                  "worse_material_name": "Cyanoacrylates"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937f2",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G10",
+                  "name": "Number of application/estimated quantity",
+                  "group_id": "655f7c274236a52525bdf121",
+                  "slug": "number_of_application",
+                  "color": "bg-fuchsia-500",
+                  "form": [
+                    "material",
+                    "treatment"
+                  ],
+                  "value": 8,
+                  "worse_material_id": "6489e0b2c28a55c1a10bbc50",
+                  "worse_material_name": "Cyanoacrylates"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937f3",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "G11",
+                  "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                  "group_id": "655f7c274236a52525bdf121",
+                  "slug": "longevity_of_treatment",
+                  "color": "bg-fuchsia-500",
+                  "form": [
+                    "treatment"
+                  ],
+                  "value": 8,
+                  "worse_material_id": "6489e0b2c28a55c1a10bbc50",
+                  "worse_material_name": "Cyanoacrylates"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937f4",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "S12",
+                  "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                  "group_id": "655f7c274236a52525bdf121",
+                  "slug": "accessibility_availability_in_production",
+                  "color": "bg-yellow-300",
+                  "form": [
+                    "material"
+                  ],
+                  "value": 8,
+                  "worse_material_id": "6526ae118a3b5ddb2c90f287",
+                  "worse_material_name": "Benzene"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937f5",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "S13",
+                  "name": "Quality of result",
+                  "group_id": "655f7c274236a52525bdf121",
+                  "slug": "quality_of_result",
+                  "color": "bg-yellow-300",
+                  "form": [
+                    "treatment"
+                  ],
+                  "value": 10,
+                  "worse_material_id": "6526ae118a3b5ddb2c90f287",
+                  "worse_material_name": "Benzene"
+                },
+                {
+                  "_id": "653bcb491b954b997c3937f6",
+                  "createdAt": "2023-06-14T15:45:42.676Z",
+                  "updatedAt": null,
+                  "deletedAt": null,
+                  "createdBy": null,
+                  "updatedBy": null,
+                  "deletedBy": null,
+                  "code": "S14",
+                  "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                  "group_id": "655f7c274236a52525bdf121",
+                  "slug": "ease_of_use",
+                  "color": "bg-fuchsia-500",
+                  "form": [
+                    "material",
+                    "treatment"
+                  ],
+                  "value": 7,
+                  "worse_material_id": "6526ae118a3b5ddb2c90f287",
+                  "worse_material_name": "Benzene"
+                }
+              ],
+              "selected": false,
+              "page": "0",
+              "name": "1500 painting",
+              "treatments": [
+                {
+                  "name": "New treatment 1",
+                  "materials": [
+                    {
+                      "_id": "653b73ee362bb92741d1197a",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "name": "Formic acid",
+                      "__v": 0,
+                      "type": "substances",
+                      "parameters": [
+                        {
+                          "_id": "653bcb491b954b997c3937e9",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G1",
+                          "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicit_environment",
+                          "color": "bg-cyan-500",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 4
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ea",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G2",
+                          "name": "Toxicity (and hazard metrics) user direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicity_user",
+                          "color": "bg-green-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937eb",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G3",
+                          "name": "Energy - Climate indoor control and outdoor location ",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "climate_indoor_outdoor",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ec",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G4",
+                          "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_consuption",
+                          "color": "bg-red-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 8
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ed",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G5",
+                          "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_carbon_footprint",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 4
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ee",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G6",
+                          "name": "Availability materials - water use & resource depletion ",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "availability_materials",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 4
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ef",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G7",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "biodiversity_impacts",
+                          "color": "bg-yellow-300",
+                          "name": "Availability materials - biodiversity impacts",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f0",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G8",
+                          "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "waste_disposal_reuse",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f1",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G9",
+                          "name": "Combination conservation materials and application method",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "application_method",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 4
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f2",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G10",
+                          "name": "Number of application/estimated quantity",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "number_of_application",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 5
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f3",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G11",
+                          "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "longevity_of_treatment",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 3
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f4",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S12",
+                          "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "accessibility_availability_in_production",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 5
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f5",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S13",
+                          "name": "Quality of result",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "quality_of_result",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f6",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S14",
+                          "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "ease_of_use",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 9
+                        }
+                      ],
+                      "visible": true
+                    },
+                    {
+                      "_id": "65bb62b72e87608b2cec8db8",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "name": "Brush",
+                      "__v": 0,
+                      "type": "stuff",
+                      "parameters": [
+                        {
+                          "_id": "653bcb491b954b997c3937e9",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G1",
+                          "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicit_environment",
+                          "color": "bg-cyan-500",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ea",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G2",
+                          "name": "Toxicity (and hazard metrics) user direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicity_user",
+                          "color": "bg-green-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 2
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937eb",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G3",
+                          "name": "Energy - Climate indoor control and outdoor location ",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "climate_indoor_outdoor",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 3
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ec",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G4",
+                          "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_consuption",
+                          "color": "bg-red-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ed",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G5",
+                          "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_carbon_footprint",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ee",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G6",
+                          "name": "Availability materials - water use & resource depletion ",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "availability_materials",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 2
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ef",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G7",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "biodiversity_impacts",
+                          "color": "bg-yellow-300",
+                          "name": "Availability materials - biodiversity impacts",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 2
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f0",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G8",
+                          "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "waste_disposal_reuse",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 9
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f1",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G9",
+                          "name": "Combination conservation materials and application method",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "application_method",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f2",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G10",
+                          "name": "Number of application/estimated quantity",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "number_of_application",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 7
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f3",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G11",
+                          "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "longevity_of_treatment",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 2
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f4",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S12",
+                          "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "accessibility_availability_in_production",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 2
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f5",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S13",
+                          "name": "Quality of result",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "quality_of_result",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f6",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S14",
+                          "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "ease_of_use",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 8
+                        }
+                      ],
+                      "visible": true
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "_id": "653bcb491b954b997c3937e9",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G1",
+                      "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                      "group_id": "655f7c274236a52525bdf11d",
+                      "slug": "toxicit_environment",
+                      "color": "bg-cyan-500",
+                      "form": [
+                        "material"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ea",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G2",
+                      "name": "Toxicity (and hazard metrics) user direct and indirect",
+                      "group_id": "655f7c274236a52525bdf11d",
+                      "slug": "toxicity_user",
+                      "color": "bg-green-400",
+                      "form": [
+                        "material"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937eb",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G3",
+                      "name": "Energy - Climate indoor control and outdoor location ",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "climate_indoor_outdoor",
+                      "color": "bg-cyan-400",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ec",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G4",
+                      "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "energy_consuption",
+                      "color": "bg-red-500",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ed",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G5",
+                      "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "energy_carbon_footprint",
+                      "color": "bg-cyan-400",
+                      "form": [
+                        "material"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ee",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G6",
+                      "name": "Availability materials - water use & resource depletion ",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "availability_materials",
+                      "color": "bg-cyan-400",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ef",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G7",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "biodiversity_impacts",
+                      "color": "bg-yellow-300",
+                      "name": "Availability materials - biodiversity impacts",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f0",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G8",
+                      "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "waste_disposal_reuse",
+                      "color": "bg-yellow-300",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f1",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G9",
+                      "name": "Combination conservation materials and application method",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "application_method",
+                      "color": "bg-fuchsia-500",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f2",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G10",
+                      "name": "Number of application/estimated quantity",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "number_of_application",
+                      "color": "bg-fuchsia-500",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f3",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G11",
+                      "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "longevity_of_treatment",
+                      "color": "bg-fuchsia-500",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f4",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S12",
+                      "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "accessibility_availability_in_production",
+                      "color": "bg-yellow-300",
+                      "form": [
+                        "material"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f5",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S13",
+                      "name": "Quality of result",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "quality_of_result",
+                      "color": "bg-yellow-300",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f6",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S14",
+                      "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "ease_of_use",
+                      "color": "bg-fuchsia-500",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "New treatment 2",
+                  "materials": [
+                    {
+                      "_id": "653b73ee362bb92741d11986",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "name": "Linalyl acetate",
+                      "__v": 0,
+                      "type": "substances",
+                      "parameters": [
+                        {
+                          "_id": "653bcb491b954b997c3937e9",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G1",
+                          "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicit_environment",
+                          "color": "bg-cyan-500",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 10
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ea",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G2",
+                          "name": "Toxicity (and hazard metrics) user direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicity_user",
+                          "color": "bg-green-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937eb",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G3",
+                          "name": "Energy - Climate indoor control and outdoor location ",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "climate_indoor_outdoor",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ec",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G4",
+                          "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_consuption",
+                          "color": "bg-red-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 8
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ed",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G5",
+                          "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_carbon_footprint",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 9
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ee",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G6",
+                          "name": "Availability materials - water use & resource depletion ",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "availability_materials",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 3
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ef",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G7",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "biodiversity_impacts",
+                          "color": "bg-yellow-300",
+                          "name": "Availability materials - biodiversity impacts",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 9
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f0",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G8",
+                          "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "waste_disposal_reuse",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 7
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f1",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G9",
+                          "name": "Combination conservation materials and application method",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "application_method",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f2",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G10",
+                          "name": "Number of application/estimated quantity",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "number_of_application",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f3",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G11",
+                          "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "longevity_of_treatment",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 3
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f4",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S12",
+                          "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "accessibility_availability_in_production",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f5",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S13",
+                          "name": "Quality of result",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "quality_of_result",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 8
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f6",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S14",
+                          "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "ease_of_use",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 1
+                        }
+                      ],
+                      "visible": true
+                    },
+                    {
+                      "_id": "653b73ee362bb92741d11980",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "name": "Hafnium dioxide",
+                      "__v": 0,
+                      "type": "substances",
+                      "parameters": [
+                        {
+                          "_id": "653bcb491b954b997c3937e9",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G1",
+                          "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicit_environment",
+                          "color": "bg-cyan-500",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 1
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ea",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G2",
+                          "name": "Toxicity (and hazard metrics) user direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicity_user",
+                          "color": "bg-green-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937eb",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G3",
+                          "name": "Energy - Climate indoor control and outdoor location ",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "climate_indoor_outdoor",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 4
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ec",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G4",
+                          "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_consuption",
+                          "color": "bg-red-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 9
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ed",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G5",
+                          "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_carbon_footprint",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 4
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ee",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G6",
+                          "name": "Availability materials - water use & resource depletion ",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "availability_materials",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 4
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ef",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G7",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "biodiversity_impacts",
+                          "color": "bg-yellow-300",
+                          "name": "Availability materials - biodiversity impacts",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f0",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G8",
+                          "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "waste_disposal_reuse",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 9
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f1",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G9",
+                          "name": "Combination conservation materials and application method",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "application_method",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f2",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G10",
+                          "name": "Number of application/estimated quantity",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "number_of_application",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 3
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f3",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G11",
+                          "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "longevity_of_treatment",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 9
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f4",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S12",
+                          "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "accessibility_availability_in_production",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 3
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f5",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S13",
+                          "name": "Quality of result",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "quality_of_result",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 4
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f6",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S14",
+                          "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "ease_of_use",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 8
+                        }
+                      ],
+                      "visible": true
+                    },
+                    {
+                      "_id": "65bb64732e87608b2cec8dbd",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "name": "Laser",
+                      "__v": 0,
+                      "type": "stuff",
+                      "parameters": [
+                        {
+                          "_id": "653bcb491b954b997c3937e9",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G1",
+                          "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicit_environment",
+                          "color": "bg-cyan-500",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 2
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ea",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G2",
+                          "name": "Toxicity (and hazard metrics) user direct and indirect",
+                          "group_id": "655f7c274236a52525bdf11d",
+                          "slug": "toxicity_user",
+                          "color": "bg-green-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 7
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937eb",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G3",
+                          "name": "Energy - Climate indoor control and outdoor location ",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "climate_indoor_outdoor",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 8
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ec",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G4",
+                          "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_consuption",
+                          "color": "bg-red-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ed",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G5",
+                          "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                          "group_id": "655f7c274236a52525bdf11e",
+                          "slug": "energy_carbon_footprint",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 2
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ee",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G6",
+                          "name": "Availability materials - water use & resource depletion ",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "availability_materials",
+                          "color": "bg-cyan-400",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937ef",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G7",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "biodiversity_impacts",
+                          "color": "bg-yellow-300",
+                          "name": "Availability materials - biodiversity impacts",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 10
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f0",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G8",
+                          "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                          "group_id": "655f7c274236a52525bdf120",
+                          "slug": "waste_disposal_reuse",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 5
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f1",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G9",
+                          "name": "Combination conservation materials and application method",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "application_method",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 7
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f2",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G10",
+                          "name": "Number of application/estimated quantity",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "number_of_application",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 10
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f3",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "G11",
+                          "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "longevity_of_treatment",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 7
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f4",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S12",
+                          "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "accessibility_availability_in_production",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "material"
+                          ],
+                          "value": 6
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f5",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S13",
+                          "name": "Quality of result",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "quality_of_result",
+                          "color": "bg-yellow-300",
+                          "form": [
+                            "treatment"
+                          ],
+                          "value": 7
+                        },
+                        {
+                          "_id": "653bcb491b954b997c3937f6",
+                          "createdAt": "2023-06-14T15:45:42.676Z",
+                          "updatedAt": null,
+                          "deletedAt": null,
+                          "createdBy": null,
+                          "updatedBy": null,
+                          "deletedBy": null,
+                          "code": "S14",
+                          "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                          "group_id": "655f7c274236a52525bdf121",
+                          "slug": "ease_of_use",
+                          "color": "bg-fuchsia-500",
+                          "form": [
+                            "material",
+                            "treatment"
+                          ],
+                          "value": 5
+                        }
+                      ],
+                      "visible": true
+                    }
+                  ],
+                  "parameters": [
+                    {
+                      "_id": "653bcb491b954b997c3937e9",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G1",
+                      "name": "Toxicity (and hazard metrics) environment direct and indirect",
+                      "group_id": "655f7c274236a52525bdf11d",
+                      "slug": "toxicit_environment",
+                      "color": "bg-cyan-500",
+                      "form": [
+                        "material"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ea",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G2",
+                      "name": "Toxicity (and hazard metrics) user direct and indirect",
+                      "group_id": "655f7c274236a52525bdf11d",
+                      "slug": "toxicity_user",
+                      "color": "bg-green-400",
+                      "form": [
+                        "material"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937eb",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G3",
+                      "name": "Energy - Climate indoor control and outdoor location ",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "climate_indoor_outdoor",
+                      "color": "bg-cyan-400",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ec",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G4",
+                      "name": "Energy - Consuption specific application (preventive requirements, active conservation, analyses) and after treatment implications",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "energy_consuption",
+                      "color": "bg-red-500",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ed",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G5",
+                      "name": "Energy - Carbon Footprint materials to be used/STICH calculator (GHG emission/CO2e/GWP)",
+                      "group_id": "655f7c274236a52525bdf11e",
+                      "slug": "energy_carbon_footprint",
+                      "color": "bg-cyan-400",
+                      "form": [
+                        "material"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ee",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G6",
+                      "name": "Availability materials - water use & resource depletion ",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "availability_materials",
+                      "color": "bg-cyan-400",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937ef",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G7",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "biodiversity_impacts",
+                      "color": "bg-yellow-300",
+                      "name": "Availability materials - biodiversity impacts",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f0",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G8",
+                      "name": "Waste - disposal, re-usability, the R's (e.g. refuse, reduce, re-use, recycle)",
+                      "group_id": "655f7c274236a52525bdf120",
+                      "slug": "waste_disposal_reuse",
+                      "color": "bg-yellow-300",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f1",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G9",
+                      "name": "Combination conservation materials and application method",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "application_method",
+                      "color": "bg-fuchsia-500",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f2",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G10",
+                      "name": "Number of application/estimated quantity",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "number_of_application",
+                      "color": "bg-fuchsia-500",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f3",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "G11",
+                      "name": "Longevity of treatment (retreat and durability/lifetime of materials)",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "longevity_of_treatment",
+                      "color": "bg-fuchsia-500",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f4",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S12",
+                      "name": "Accessibility - availability in production & purchasing in location, cost of materials ",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "accessibility_availability_in_production",
+                      "color": "bg-yellow-300",
+                      "form": [
+                        "material"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f5",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S13",
+                      "name": "Quality of result",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "quality_of_result",
+                      "color": "bg-yellow-300",
+                      "form": [
+                        "treatment"
+                      ]
+                    },
+                    {
+                      "_id": "653bcb491b954b997c3937f6",
+                      "createdAt": "2023-06-14T15:45:42.676Z",
+                      "updatedAt": null,
+                      "deletedAt": null,
+                      "createdBy": null,
+                      "updatedBy": null,
+                      "deletedBy": null,
+                      "code": "S14",
+                      "name": "Accessibility - Ease of use (working properties). Time testing/adaptations during treatment. Time needed for treatment.",
+                      "group_id": "655f7c274236a52525bdf121",
+                      "slug": "ease_of_use",
+                      "color": "bg-fuchsia-500",
+                      "form": [
+                        "material",
+                        "treatment"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "pages": {
+            "current_page": "0",
+            "context_menu": "",
+            "list": [
+              {
+                "_id": "0",
+                "name": "My workspace"
+              },
+              {
+                "_id": "8c5c01cb-7f48-4be8-a191-7689dc13f15c",
+                "name": "New page"
+              }
+            ],
+            "rename_page_id": -1,
+            "bars_opened": false
+          },
+          "user_id": {
+            "$oid": "65f300f40d93992da7287b66"
+          },
+          "__v": 0
+        }
+      ]
+    }
+  }
+]

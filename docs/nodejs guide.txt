@@ -1,0 +1,17 @@
+> Install nodejs
+> Create folder and enter it
+> npm init 
+> npm install --save express
+> create file server.js <--- vedi codie
+> create file app.js <--- vedi codice
+> node server.js
+> npm i --save-dev nodemon // Per evitare di fare restart del server
+> add this script: "start": "nodemon server.js"
+> npm start
+> npm i --save morgan // Aggiunge un logging alla console
+> npm i --save body-parser // Per parsare il body delle richieste API (url encoded,bodies, json data)
+> install mongodb compass (gui per mongo)
+> npm i bcryptjs
+> npm i jasonwebtoken
+> npm i cors
+> npm i cookie-parser

@@ -1,0 +1,24 @@
+const mongoose = require('mongoose');
+const schema = mongoose.Schema({
+  _id: mongoose.Schema.Types.ObjectId,
+  createdAt: {type: Date},
+  updatedAt: {type: Date},
+  deletedAt: {type: Date},
+  createdBy: {type: mongoose.Schema.Types.ObjectId},
+  updatedBy: {type: mongoose.Schema.Types.ObjectId},
+  deletedBy: {type: mongoose.Schema.Types.ObjectId},
+  name: {
+    type: String,
+    required: true
+  },
+  type: {
+    type: String,
+    required: true
+  },
+  parameters: {
+    type: Object,
+    required:true
+  }
+});
+
+module.exports = mongoose.model('materials_fake', schema);

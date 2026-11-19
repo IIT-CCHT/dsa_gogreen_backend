@@ -1,0 +1,71 @@
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+CORSO MONGO DB
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+
+Database (insieme di collezioni) 
+  -> Collections (collezioni di documenti) 
+    -> Documenti 
+      -> json (in realtà è in bson che permette di gestire un po' più di dati rispetto al json, la sintassi è uguale)
+        
+
+
+NAVIGATE
+----------------------------------------------
+> show dbs (per vedere i db)
+> use dsa (per lavorare nel dba)
+> db.users (per entrare nella tabella users)
+
+
+
+INSERT
+----------------------------------------------
+> db.users.insertOne(
+    {"name": "Mario Rossi", "email": "mario.rossi@iit.it"}
+  )
+> db.users.insertMany(
+    [
+      {"name": "Mario Rossi", "email": "mario.rossi@iit.it"},
+      {"name": "Luca Bianchi", "email": "luca.bianchi@iit.it"},
+    ]
+  )
+
+
+
+SELECT
+----------------------------------------------
+> db.users.find()
+> db.users.find().pretty() // Utile in console
+> db.users.findOne({
+    name:"Mario Rossi" // Non servono i doppi apici sul name
+  }) 
+
+
+
+FILTERS
+----------------------------------------------
+https://www.mongodb.com/docs/manual/reference/operator/query-comparison/
+
+> db.users.find({
+    age: { $gt: 21 } // Greater than 21 years
+  })
+
+> db.users.find({
+    age: { $in: [21,25] } // Equals to 21 or 25
+  })
+
+
+
+LOGICAL OPERATORS
+----------------------------------------------
+$and, $not, $nor, $or
+
+> db.users.find({
+    age: { $and: [
+      { city: "Milano" },
+      { age: 25 }
+    ] } 
+  })

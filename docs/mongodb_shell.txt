@@ -1,0 +1,129 @@
+-----------------------------------
+-----------------------------------
+-----------------------------------
+MONGO DB SHELL COURSE
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+
+Create and Access DB
+-----------------------------------
+> mongosh # Open mongo shell
+> show dbs
+> use [db_name]
+> db # See current db 
+> show collections
+> exit
+
+
+Manage variables
+-----------------------------------
+> var name= "Pippo"
+> name 
+Pippo
+
+
+INSERTS
+-----------------------------------
+mydb> db.users # Create colection
+mydb> db.users.insertOne({email:"pippo@pluto.gni", first_name:"Pippo", last_name:"Pluto"}) # La collezione USERS si crea se non esiste
+mydb> db.users.insertMany([{ ... }, { ... }, { ... }])
+
+FIND
+-----------------------------------
+-----------------------------------
+-----------------------------------
+
+Count and limit
+-----------------------------------
+mydb> db.users.find({ first_name: "Pippo"}).count()
+mydb> db.users.find({ first_name: "Pippo"}).limit(3)
+mydb> db.users.find({ first_name: "Pippo"}).limit(3).count()
+
+Sort
+-----------------------------------
+mydb> db.users.find().sort({ last_name: 1, first_name: -1 })
+mydb> db.users.find().sort({ last_name: 1, first_name: -1 }).limit(3)
+
+Queries
+-----------------------------------
+
+  Operatore di confronto:
+  mydb> db.users.find({ age: {$gt:18} })
+  mydb> db.users.find({ age: {$gt:18}, first_name: "Luca" })
+  $eq: Uguale a
+  $ne: Diverso da
+  $gt: Maggiore di
+  $lt: Minore di
+  $gte: Maggiore o uguale a
+  $lte: Minore o uguale a
+
+  Operatore di confronto logico:
+  mydb> db.users.find({ $or: [ {first_name: "luca"}, {age: {$gte: 18} } ] })
+  $and: Logica AND
+  $or: Logica OR
+  $not: Logica NOT
+  $nor: Logica NOR
+
+  Operatore di esistenza:
+  $exists: Verifica se un campo esiste in un documento
+
+  Operatore di tipo:
+  $type: Verifica il tipo di un campo
+
+  Operatore di regex:
+  $regex: Ricerca basata su espressioni regolari
+
+  Operatore di elementi in un array:
+  mydb> db.users.find({ age: {$in: [18,19,20] } })
+  mydb> db.users.find({ $or: [{ age:18 }, {age:19}, {age:20}] }) <--- equivalent to the one above
+  mydb> db.users.find({ sports: "tennis"}) <--- Filter array fields
+  mydb> db.users.find({ sports: ["tennis"]}) <--- Filter array fields only exact array
+  mydb> db.users.find({ sports: {$all: ["tennis","golf"] } }) <---- Filter array fields list inside array
+  mydb> db.users.find({ sports: {$all: ["tennis","golf"] } }) <--- Filter array fields list inside array
+  mydb> db.users.find({ "jobs.name": "musician" }) <--- Filter array of object
+  $in: Corrispondenza con uno qualsiasi dei valori specificati
+  $nin: Non corrispondenza con nessuno dei valori specificati
+  $all: Corrispondenza con tutti i valori specificati
+
+  Operatore di dimensione dell'array:
+  $size: Verifica la dimensione di un array
+
+  Operatore di elemMatch:
+  $elemMatch: Ricerca elementi in un array che soddisfano tutti i criteri specificati
+
+  Operatore di proiezione:
+  projection: Specifica i campi da includere o escludere nei risultati della query
+
+-----------------------------------
+-----------------------------------Cauti@nF4nAre34
+-----------------------------------
+
+
+Delete
+-----------------------------------
+mydb> db.users.deleteOne({ _id: ObjectId("07898cd653465c098d86566d") })
+mydb> db.users.deleteMany({ age: 20 })
+
+
+Update
+-----------------------------------
+mydb> db.users.updateOne({ _id: ObjectId("07898cd653465c098d86566d"), { $set: { age:19, first_name: "Pluto" } } })
+mydb> db.users.updateMany({ { first_name: "luca"  }, { $set: { first_name: "Luca" } } })
+
+
+Increment
+-----------------------------------
+mydb> db.users.updateOne({ _id: ObjectId("07898cd653465c098d86566d"), { $inc: { age: 1 } } }) <--- Add 1 to age of that user
+
+
+Push (insert value into array)
+-----------------------------------
+mydb> db.users.updateOne({ _id: ObjectId("07898cd653465c098d86566d"), { $push: { sports: "volley" } } }) 
+mydb> db.users.updateOne({ _id: ObjectId("07898cd653465c098d86566d"), { $push: { sports: { $each: ["football", "baseball"]} } } }) 
+
+
+Pull (insert value into array)
+-----------------------------------
+mydb> db.users.updateOne({ _id: ObjectId("07898cd653465c098d86566d"), { $pull: { sports: "volley" } } }) 
